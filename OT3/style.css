@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #333333;
+    padding: 10px;
+}
+.nav-link.disabled {
+    color: rgb(248, 183, 61) !important;
+    opacity: 1; /* Remove o efeito de "apagado" */
+    pointer-events: none; /* Mantém como não clicável */
+}
